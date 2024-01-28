@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/floppa.unity
+    guid: 50dbb7ca4ca91e646a9b60d301caafa0
+  - enabled: 1
+    path: Assets/Scenes/prototype.unity
+    guid: 45e7b203f0945d84e9f31019426283d7
+  - enabled: 1
+    path: Assets/Scenes/followupScene.unity
+    guid: 8ad0cc323e5db184db94ac5d4f7fb332
   m_configObjects: {}
