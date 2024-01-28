@@ -11,12 +11,15 @@ public class playercontroller : MonoBehaviour {
     public Rigidbody rb;
     public SpriteRenderer sr;
 
+    public Animator animator;
+
     
 
     // Start is called before the first frame update
     void Start() {
         
         rb = gameObject.GetComponent<Rigidbody>();
+        animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -33,17 +36,18 @@ public class playercontroller : MonoBehaviour {
             }
         }
 
-
+        //get input from the player
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
         Vector3 moveDir = new Vector3(x, 0, y); // Modified to include vertical movement
-        rb.velocity = moveDir * speed;
+        // move the player
+        rb.velocity = moveDir * speed * Time.deltaTime;
 
         if(Input.GetKeyDown(KeyCode.A) )
         {
-
+            
             transform.rotation = Quaternion.Euler(0, -90, 0);
-
+            animator.SetBool("walking",true);
         }
 
         if (Input.GetKeyDown(KeyCode.D))
@@ -54,14 +58,6 @@ public class playercontroller : MonoBehaviour {
         }
 
 
-        if (x != 0 && x < 0) {
-            sr.flipX = true;
-           
-        }
-        else if (x != 0 && x > 0) {
-            sr.flipX = false;
-            
-        }
     }
     
 
