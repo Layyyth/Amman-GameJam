@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: ecbe8943613b4664fb4135f3a86708ca
+guid: 33c33fd9c2a3eb84a86bb3121d2a0516
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Guard_03__diffuse
-    second: {fileID: 2800000, guid: d01463a15abcd3f48bf6b6afb245003e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Guard_03__normal
-    second: {fileID: 2800000, guid: 06bfcadc99f67bd4faba63164d444621, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Guard_03__specular
-    second: {fileID: 2800000, guid: f8f560ba884cda649b9157d075fc4a92, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -92,11 +77,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - cad6f5418c086f348ad640799f599561
-  - caf73e92edef0304a9aabe820536338d
-  - 8f241afcf291f8f4ab9458b960926e84
-  - e9b903aaab90502428f3e808e23c7d1c
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
